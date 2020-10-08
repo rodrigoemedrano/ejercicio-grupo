@@ -1,0 +1,71 @@
+body {
+    background-color: #022B3A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #BFDBF7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+    width: 44%;
+    margin-top: 50px;
+    max-width: 500px;
+    padding: 3%;
+    background-color: rgba(31, 122, 140, 0.6);
+    border-radius: 15px;
+    font-size: 0.9em;
+}
+
+.dni-input,
+.name-input,
+.boton-enviar,
+.span-radio {
+    font-family: 'Open Sans', sans-serif;
+    width: 96%;
+    display: block;
+    padding: 10px 2%;
+    margin: 10px auto;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.span-radio {
+    border: none;
+    background-color: inherit;
+    line-height: 1.5em;
+}
+
+.radio-cont {
+    width: 200px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.list-container {
+    margin-top: 40px;
+}
+
+h1 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.list-container ul {
+    padding: 20px 10px;
+    border: 1px solid #BFDBF7;
+    border-radius: 15px;
+}
+
+.item-lista {
+    padding: 5px 0;
+}
+
+.boton-eliminar {
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 2%;
+}
